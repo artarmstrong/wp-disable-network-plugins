@@ -6,7 +6,7 @@
 function deactivate_network_plugins() {
 
   // Network plugins we want to keep, just the folder name
-  $ignored_plugins = array("rss-importer");
+  $ignored_plugins = array();
 
   // Get all network activated plugins and deactivate
   $sitewide_plugins = get_site_option('active_sitewide_plugins');
